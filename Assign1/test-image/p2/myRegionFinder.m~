@@ -1,0 +1,18 @@
+function [ imOut ] = myRegionFinder( imIn )
+%UNTITLED4 Summary of this function goes here
+%   Detailed explanation goes here
+count = 1;
+
+imOut = zeros(size(imIn));
+
+% for x = 1:length(imIn) - 1
+%     for y = 1:length(imIn(1,:))
+%         if imIn(x, y) == 1
+%             imOut(x, y) = 1;
+%         end
+%     end
+% end
+
+
+end
+
