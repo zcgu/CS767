@@ -1,3 +1,5 @@
+clc;clear;close all;
+
 % You can change 'flower.jpg' to other names.
 a = imread('flower.jpg');
 [a2, area, diameter] = mySegmenter(a);

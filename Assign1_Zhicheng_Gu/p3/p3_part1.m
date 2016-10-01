@@ -1,6 +1,6 @@
 % clear
-% a = imread('img_ct_lung.jpg');
-a = imread('edge_detector.png');
+a = imread('edge_link.png');
+% a = imread('edge_detector.png');
 
 % imshow(a)
 a = im2double(a);
