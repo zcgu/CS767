@@ -1,15 +1,12 @@
 clc;clear;close all;
-a = imread('edge_link.png');
-% a = imread('edge_detector.png');
+% a = imread('edge_link.png');
+a = imread('edge_detector.png');
 
 a = im2double(a);
-% subplot(2, 3, 1);
-imagesc(a);
 
 b = edge(a);
 subplot(1, 2, 1);
 imagesc(b);
-
 
 [pointy,pointx,l] = ginput(1);
 

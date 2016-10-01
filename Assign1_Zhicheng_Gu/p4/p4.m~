@@ -1,13 +1,24 @@
 clc;clear;close all;
-a = imread('dsa.png');
+% a = imread('dsa.png');
+a = imread('fmri.png');
+% a = imread('test.png');
 
-imagesc(a);
+a = a(:,:,1);
+subplot(1, 3, 1);
+imshow(a);
 
-b = a;
+% b = a;
+% 
+% [m, n] = size(b);
+% for x = 1 : m - 10
+%     for y = 1: n - 10
+%         b(x, y) = getFeature(a, x, y, 5, 5);
+%     end
+% end
+% 
+% c = b(1:end - 10, 1:end - 10, 1);
+% c = im2uint8(c);
+% subplot(1, 2, 2);
+% imshow(imadjust(c));
 
-[m, n] = size(b);
-for x = 1 : m - 20
-    for y = 1: n - 20
-        b(x, y) = getFeature(a, x, y, 10, 10)
-    end
-end
+featureHist = getFeatureHist(a, 70, 1, 20);
