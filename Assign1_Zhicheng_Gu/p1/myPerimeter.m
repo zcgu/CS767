@@ -3,8 +3,10 @@ function [ perimeter ] = myPerimeter( im )
 im2 = im;
 perimeter = [];
 
-for x = 2:length(im) - 1
-    for y = 2:length(im(x,:)) - 1
+[sizx, sizey] = size(im);
+
+for x = 2:sizx - 1
+    for y = 2:sizey - 1
         if im(x, y) == 1 && min(min(im(x-1:x+1, y-1:y+1))) == 0
             perimeter = [perimeter; [x, y]];
             im2(x,y) = 1;
@@ -14,9 +16,9 @@ for x = 2:length(im) - 1
     end
 end
 
-subplot(2, 3, 3);
+subplot(1, 3, 3);
 imshow(im2);
-imwrite(im2, 'p1_perimeter_output.jpg');
+% imwrite(im2, 'p1_perimeter_output.jpg');
 
 end
 

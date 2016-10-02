@@ -1,0 +1,21 @@
+CS767 Assignment 1
+Zhicheng Gu
+Email: zgu58@wisc.edu
+Student ID: 9073696370
+
+------------------------------------------------
+How to run
+------------------------------------------------
+
+P1. run 'p1.m' under ./p1
+
+P2. run 'p2.m' under ./p2
+
+P3. run 'p3_part1.m' under ./p3
+	run 'p3_part2.m' under ./p3
+
+P4. run 'p4.m' under ./p4
+
+------------------------------------------------
+You can change a = imread('flower.jpg'); at the top of each file to other figures.
+------------------------------------------------

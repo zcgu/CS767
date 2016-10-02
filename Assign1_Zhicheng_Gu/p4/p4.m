@@ -1,10 +1,9 @@
 clc;clear;close all;
 a = imread('dsa.png');
 % a = imread('fmri.png');
-% a = imread('test.png');
 
 a = a(:,:,1);
-subplot(1, 2, 1);
+subplot(1, 3, 1);
 imshow(a);
 
 % b = a;

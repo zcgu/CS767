@@ -1,12 +1,16 @@
-function [ im1, im2 ] = myDT( imIn, perimeter )
+function [ im1, im11 ] = myDT( imIn, perimeter )
 %UNTITLED3 Summary of this function goes here
 %   Detailed explanation goes here
 % im1 = double(imIn);
-im1 = zeros(size(imIn));
-im2 = 0;
 
-for x = 2:length(im1) - 1
-    for y = 2:length(im1(x,:)) - 1
+im1 = zeros(size(imIn));
+im11 = 0;
+im2 = zeros(size(imIn));
+im22 = 0;
+
+[sizx, sizey] = size(imIn);
+for x = 2:sizx
+    for y = 2:sizey
         val = realmax;
 
         for p = 1:length(perimeter)
@@ -17,7 +21,14 @@ for x = 2:length(im1) - 1
 
         end
         
-        im1(x, y) = val;
+%         imIn(x, y)
+        if imIn(x, y) > 0
+            im2(x, y) = val;
+            im1(x, y) = 0;
+        else
+            im2(x, y) = 0;
+            im1(x, y) = val;
+        end
     end
 end
 
@@ -28,8 +39,10 @@ end
 % subplot(2, 3, 5);
 % imshow(res, map);
 
-im2 = im1 ./ max(im1(:));
-im2 = im2uint8(im2);
+im11 = im1 ./ max(im1(:));
+im11 = im2uint8(im11);
+im22 = im2 ./ max(im2(:));
+im22 = im2uint8(im22);
 % im2 = im2 * 255;
 % [m, n, r]=size(im2);
 % rgb=zeros(m,n,3); 
@@ -44,8 +57,11 @@ im2 = im2uint8(im2);
 %   im2 = cat(3, im2, im2, im2);
 % end
 
-subplot(2, 3, 5);
-imshow(im2);
-% colormap hot
+figure
+subplot(1, 2, 1);
+imagesc(im11);
+subplot(1, 2, 2);
+imagesc(im22);
+colormap jet
 end
 

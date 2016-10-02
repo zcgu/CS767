@@ -1,8 +1,8 @@
-function [ imOut, area, diameter ] = mySegmenter( imIn )
+function [ imOut] = mySegmenter( imIn )
 %This function gets a input gray image imIn and output segmented binary
 %image.
 %   This function also display the images and other infos of images.
-subplot(2, 3, 1);
+subplot(1, 3, 1);
 imshow(imIn);
 
 hist = imhist(imIn);
@@ -39,7 +39,7 @@ end
 
 imOut = logical(imOut);
 
-subplot(2, 3, 2);
+subplot(1, 3, 2);
 imshow(imOut);
 
 perimeter = myPerimeter(imOut);
@@ -66,11 +66,11 @@ end
 
 fprintf('Diameter: %i\n', diameter);
 
-myDT(imOut, perimeter);
+[im1, im2] = myDT(imOut, perimeter);
 
 area = sum(imOut(:));
 
-imwrite(imOut, 'p1_output.jpg');
+% imwrite(imOut, 'p1_output.jpg');
 
 return
 end

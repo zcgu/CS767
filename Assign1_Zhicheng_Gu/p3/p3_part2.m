@@ -1,7 +1,10 @@
 clc;clear;close all;
-% a = imread('edge_link.png');
-a = imread('edge_detector.png');
+a = imread('edge_link.png');
+% a = imread('edge_detector.png');
+% a = imread('cloud.png');
+% a = imread('img_ct_lung.jpg');
 
+a = a(:,:,1);
 a = im2double(a);
 
 b = edge(a);

@@ -56,10 +56,10 @@ end
 c = b(1:end - m - m, 1:end - n - n, 1);
 c = c ./ max(c(:));
 c = im2uint8(c);
-subplot(1, 2, 2);
+subplot(1, 3, 2);
 imshow(imadjust(c));
 
-% subplot(1, 3, 3);
-% histogram(featureHist, numBins);
+subplot(1, 3, 3);
+histogram(featureHist, numBins);
 end
 

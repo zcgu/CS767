@@ -1,9 +1,11 @@
-clc;clear;close all;
+% clc;clear;close all;
 
-% You can change 'flower.jpg' to other names.
 a = imread('flower.jpg');
-[a2, area, diameter] = mySegmenter(a);
-%    
+
+a = a(:,:,1);
+a = im2uint8(a);
+[a2] = mySegmenter(a);
+
 
 % b = blobs;
 % p = predictor;

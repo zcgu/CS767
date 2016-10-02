@@ -21,8 +21,8 @@ while size(lst) > 0
 
     imOut(x, y) = count;
 
-    for i = -2:2
-        for j = -2:2
+    for i = -5:5
+        for j = -5:5
             lst = [lst; [x + i, y + j]];
         end
     end

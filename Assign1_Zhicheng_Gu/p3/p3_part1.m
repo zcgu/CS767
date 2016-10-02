@@ -1,9 +1,12 @@
-% clear
+clc;clear;close all;
 a = imread('edge_link.png');
 % a = imread('edge_detector.png');
+% a = imread('cloud.png');
+% a = imread('img_ct_lung.jpg');
 
-% imshow(a)
+a = a(:,:,1);
 a = im2double(a);
+
 subplot(2, 3, 1);
 imagesc(a);
 
