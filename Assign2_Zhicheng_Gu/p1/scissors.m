@@ -25,6 +25,11 @@ while pq_size(pq) > 0
     x = floor(index / sizey);
     y = index - floor(index / sizey) * sizey;
     cost = -cost;
+    
+    if visited(x, y) == 1
+        continue
+    end
+    
     visited(x, y) = 1;
     
     if x == destRow && y == destCol

@@ -14,7 +14,7 @@ curve = ginput(100);
 curve = round(curve);
 curve(:,[1,2])=curve(:,[2,1]);
 
-imOut = mySnake(a, a, curve, 0.5, 1);
+imOut = mySnake(a, a, curve, 0.3, 0.5);
 
 figure
 imshow(imOut);

@@ -7,9 +7,9 @@ clc;clear;close all;
 % mex pq/pq_top.cpp;
 % mex pq/pq_delete.cpp;
 
-% a = imread('1.png');
+a = imread('1.png');
 % a = imread('2.JPG');
-a = imread('MRI.jpg');
+% a = imread('MRI.jpg');
 % a = imread('brain.png');
 
 a = a(:,:,1);
