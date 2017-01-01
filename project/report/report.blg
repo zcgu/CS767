@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: ieee.bst
+Database file #1: report.bib
+Warning--to sort, need author or key in humanconnectblog
+Warning--to sort, need author or key in humanconnect
+Warning--to sort, need author or key in keras
+Too many commas in name 1 of "Dan Claudiu Ciresan, Ueli Meier, Luca Maria Gambardella, Juergen Schmidhuber" for entry deepbig
+while executing---line 1073 of file ieee.bst
+Warning--empty journal in ayachit2015paraview
+Too many commas in name 1 of "Dan Claudiu Ciresan, Ueli Meier, Luca Maria Gambardella, Juergen Schmidhuber" for entry deepbig
+while executing---line 1116 of file ieee.bst
+You've used 10 entries,
+            2120 wiz_defined-function locations,
+            551 strings with 5647 characters,
+and the built_in function-call counts, 3235 in all, are:
+= -- 289
+> -- 207
+< -- 1
++ -- 87
+- -- 74
+* -- 245
+:= -- 542
+add.period$ -- 28
+call.type$ -- 10
+change.case$ -- 66
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 95
+empty$ -- 237
+format.name$ -- 74
+if$ -- 650
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 6
+newline$ -- 50
+num.names$ -- 14
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 56
+quote$ -- 0
+skip$ -- 66
+stack$ -- 0
+substring$ -- 134
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 4
+while$ -- 20
+width$ -- 12
+write$ -- 97
+(There were 2 error messages)

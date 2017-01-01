@@ -1,0 +1,58 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{humanconnect}
+The human connectome database.
+\newblock \url{http://www.humanconnectome.org/data/}.
+
+\bibitem{humanconnectblog}
+The human connectome project.
+\newblock \url{http://www.humanconnectome.org/about/project/tractography.html}.
+
+\bibitem{keras}
+Keras: Deep learning library for theano and tensorflow.
+\newblock \url{https://keras.io/}.
+
+\bibitem{tensorflow}
+M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
+  A.~Davis, J.~Dean, M.~Devin, et~al.
+\newblock Tensorflow: Large-scale machine learning on heterogeneous distributed
+  systems.
+\newblock {\em arXiv preprint arXiv:1603.04467}, 2016.
+
+\bibitem{ayachit2015paraview}
+U.~Ayachit.
+\newblock The paraview guide: a parallel visualization application.
+\newblock 2015.
+
+\bibitem{basser2000vivo}
+P.~J. Basser, S.~Pajevic, C.~Pierpaoli, J.~Duda, and A.~Aldroubi.
+\newblock In vivo fiber tractography using dt-mri data.
+\newblock {\em Magnetic resonance in medicine}, 44(4):625--632, 2000.
+
+\bibitem{cook2006camino}
+P.~Cook, Y.~Bai, S.~Nedjati-Gilani, K.~Seunarine, M.~Hall, G.~Parker, and
+  D.~Alexander.
+\newblock Camino: open-source diffusion-mri reconstruction and processing.
+\newblock In {\em 14th scientific meeting of the international society for
+  magnetic resonance in medicine}, volume 2759. Seattle WA, USA, 2006.
+
+\bibitem{deepbig}
+L.~M. G. J.~S. Dan Claudiu~Ciresan, Ueli~Meier.
+\newblock Deep big simple neural nets excel on handwritten digit recognition,
+  2010.
+\newblock \url{https://arxiv.org/abs/1003.0358}.
+
+\bibitem{mukherjee2008diffusion}
+P.~Mukherjee, J.~Berman, S.~Chung, C.~Hess, and R.~Henry.
+\newblock Diffusion tensor mr imaging and fiber tractography: theoretic
+  underpinnings.
+\newblock {\em American journal of neuroradiology}, 29(4):632--641, 2008.
+
+\bibitem{yushkevich2006user}
+P.~A. Yushkevich, J.~Piven, H.~C. Hazlett, R.~G. Smith, S.~Ho, J.~C. Gee, and
+  G.~Gerig.
+\newblock User-guided 3d active contour segmentation of anatomical structures:
+  significantly improved efficiency and reliability.
+\newblock {\em Neuroimage}, 31(3):1116--1128, 2006.
+
+\end{thebibliography}
